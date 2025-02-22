@@ -14,7 +14,7 @@ func IsAnagram(s string, t string) bool {
 
 	}
 
-	for k, _ := range s_map {
+	for k := range s_map {
 		if s_map[k] != t_map[k] {
 			return false
 		}

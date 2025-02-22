@@ -2,7 +2,7 @@ package solutions
 
 import "strings"
 
-func addBinary(a string, b string) string {
+func AddBinary(a string, b string) string {
 	if len(a) < len(b) {
 		a, b = b, a
 	}

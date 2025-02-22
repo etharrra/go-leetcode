@@ -8,9 +8,5 @@ import (
 
 func main() {
 	s := "A man, a plan, a canal: Panama"
-	s = "race a car"
-	s = " "
-	nums := []int{}
 	fmt.Println(solutions.IsPalindrome(s))
-	fmt.Println(solutions.LongestConsecutive(nums))
 }

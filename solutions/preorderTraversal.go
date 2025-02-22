@@ -2,7 +2,7 @@ package solutions
 
 import "github.com/etharrra/go-leetcode/utils"
 
-func preorderTraversal(root *utils.TreeNode) []int {
+func PreorderTraversal(root *utils.TreeNode) []int {
 	res := []int{}
 	preorder(root, &res)
 	return res

@@ -5,7 +5,7 @@ import (
 	"strconv"
 )
 
-func fizzBuzz(n int32) {
+func FizzBuzz(n int32) {
 	s := ""
 	for i := 1; i <= int(n); i++ {
 		if i%3 == 0 {

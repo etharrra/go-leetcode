@@ -2,7 +2,7 @@ package solutions
 
 import "github.com/etharrra/go-leetcode/utils"
 
-func inorderTraversalLoop(root *utils.TreeNode) []int {
+func InorderTraversalLoop(root *utils.TreeNode) []int {
 	res := []int{}
 	stack := []utils.TreeNode{}
 	cur := root
