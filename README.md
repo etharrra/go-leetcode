@@ -31,7 +31,7 @@ This file defines the Go module and its dependencies.
 1.  **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/go-leetcode.git
+    git clone https://github.com/etharrra/go-leetcode.git
     cd go-leetcode
     ```
 
