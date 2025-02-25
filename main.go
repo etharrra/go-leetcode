@@ -7,6 +7,9 @@ import (
 )
 
 func main() {
-	s := "A man, a plan, a canal: Panama"
-	fmt.Println(solutions.IsPalindrome(s))
+	s := "loveleetcode"
+	c := 'e'
+	s = "aaba"
+	c = 'b'
+	fmt.Println(solutions.ShortestToChar(s, byte(c)))
 }
